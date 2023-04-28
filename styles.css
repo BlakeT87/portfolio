@@ -1,0 +1,83 @@
+/* Colors
+
+light --- #edf2f4
+mid --- #8d99ae
+dark --- #2b2d42
+accent --- #ef233c
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 51px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.avatar{
+    width: 250px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #8d99ae;
+}
+
+.text-container{
+    width: 400px;
+    text-align: center;
+}
+
+.connect{
+    width: 300px;
+}
+
+.icon{
+    width: 50px;
+    background-color: #8d99ae;
+    border-radius: 20%;
+}
+.social-links{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.top-section{
+    background-color: #8d99ae;
+    color: #2b2d42;
+    padding: 100px 20px;
+}
+
+.section-title{
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-top: 1px solid #2b2d42;
+    border-bottom: 1px solid #2b2d42;    
+}
+
+.mid-section{
+    padding: 20px;
+}
