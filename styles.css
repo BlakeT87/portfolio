@@ -25,14 +25,20 @@ h2{
     font-size: 24px;
     font-weight: 300;
 }
+
+p{
+    font-size: 20px;
+}   
+
 .avatar{
-    width: 250px;
+    min-width: 75px;
+    max-height: 250px;  
     border-radius: 5%;
     box-shadow: 5px 5px 5px #8d99ae;
 }
 
 .text-container{
-    width: 400px;
+    min-width: 400px;
     text-align: center;
 }
 
@@ -44,6 +50,13 @@ h2{
     width: 50px;
     background-color: #8d99ae;
     border-radius: 20%;
+}
+
+.icon:hover{
+    outline: 2px outset #edf2f4;
+    opacity: 20;
+    cursor: pointer;
+
 }
 .social-links{
     padding: 10px;
@@ -64,20 +77,97 @@ header{
 }
 
 .top-section{
+    display: flex;
+    justify-content: center;    
     background-color: #8d99ae;
     color: #2b2d42;
-    padding: 100px 20px;
+    height: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 800px;   
 }
 
 .section-title{
-    margin: 0 auto;
+    margin: 10;
     text-align: center;
-    width: 400px;
-    padding: 20px;
+    padding: 30px;  
     border-top: 1px solid #2b2d42;
     border-bottom: 1px solid #2b2d42;    
 }
 
+article{
+    line-height: 24px;
+}
+
+#medium-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ef233c;
+}
+
+#medium-link:hover {
+    cursor: pointer;
+    background-color: #ef233c;
+    color: #2b2d42;
+    padding: 2px;
+}
+
 .mid-section{
-    padding: 20px;
+    display: flex;
+    justify-content: center;   
+    background-color: #edf2f4;
+    color: #2b2d42;
+    height: 500px;
+}
+
+.project-card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid #2b2d42;  
+}
+
+.project-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-img{
+    max-width: 250px;
+    cursor: pointer;
+    filter: grayscale(100);
+}
+
+.project-img:hover{
+    filter: grayscale(0);
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: center;   
+    background-color: #2b2d42;
+    color: #edf2f4;
+    height: 200px;
+}
+
+.bottom-section-title{
+    margin: 10;
+    text-align: center;
+    padding: 10px;  
+    border-top: 1px solid #edf2f4;
+    border-bottom: 1px solid #edf2f4;    
+}
+
+.skills-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }

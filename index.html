@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,66 +11,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blake Tolliver</title>
 </head>
+
 <body>
 
     <header>
         <img class="avatar" src="images/dadpic.jpg" alt="a portrait of Blake Tolliver and daughter Cassidy">
         <div class="text-container">
             <h1 class="title">Blake Tolliver</h1>
-            <h2 class="statement">Front End Web Developer</h2></h3>
+            <h2 class="statement">Front End Web Developer</h2>
+            </h3>
         </div>
         <div class="connect">
             <h3 class="lets-connect">Lets Connect!</h3>
             <ul class="social-links">
-                <li><img class="icon" src="images/linkedin.svg" alt="LinkedIn Icon"></li>
-                <li><img class="icon" src="images/github.svg" alt="GitHub Icon"></li>
-                <li><img class="icon" src="images/twitter.svg" alt="Twitter Icon"></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/btolliver/"><img class="icon"
+                            src="images/linkedin.svg" alt="LinkedIn Icon"></a></li>
+                <li><a target="_blank" href="https://github.com/BlakeT87"><img class="icon" src="images/github.svg"
+                            alt="GitHub Icon"></a></li>
+                <li><a target="_blank" href="https://twitter.com/blaketolliver87"><img class="icon"
+                            src="images/twitter.svg" alt="Twitter Icon"></a></li>
             </ul>
         </div>
     </header>
 
     <section class="top-section">
-        <h1 class="section-title">My Story</h1>
-        <article>
-            In 2007 I was accepted to Wright State University school of Computer Science. Due to hard times and a <a target="_blank" href="https://medium.com/@blaketolliver87/changing-careers-884dfcad898d">long story</a>, I never saw my first day in the classroom. 
-            After spending the past 15 years in automotive manufacturing, I decided that I was destined for a career in Software Development, and started teaching myself computer programming.
-        </article>        
+        <div class="container">
+            <h1 class="section-title">My Story</h1>
+            <article>
+                <p>In 2007 I was accepted to Wright State University school of Computer Science.
+                    <a id="medium-link" target="_blank"
+                        href="https://medium.com/@blaketolliver87/changing-careers-884dfcad898d">
+                        Long Story</a> short, I never saw my first day in the classroom.
+                </p>
+                <p>
+                    After spending the past 15 years in automotive manufacturing, I decided that I was destined for a
+                    career
+                    in Software Development, and started teaching myself computer programming.
+                </p>
+            </article>
+        </div>
     </section>
 
     <section class="mid-section">
-        <h1 class="section-title">My Projects</h1>
-        <div class="project-section">
-            <div class="project-card">
-                <h2 class="project-title">PokeTypes</h2>
-                <img id="poketypes" src="images/poketypes.gif" alt="screenshot of poketypes app">
-            </div>
-            <div class="project-card">
-                <h2 class="project-title">Password Generator</h2>
-                <img src="images/password-generator.gif" alt="screenshot of password generator app">
-            </div>
-            <div class="project-card">
-                <h2 class="project-title">Unit Converter</h2>
-                <img src="images/unit-converter.gif" alt="screenshot of unit converter app">
+        <div class="container">
+            <h1 class="section-title">My Projects</h1>
+            <div class="project-section">
+                <div class="project-card">
+                    <h2 class="project-title">PokeTypes</h2>
+                    <a target="_blank" href="https://celadon-tulumba-ae8085.netlify.app/">
+                        <img class="project-img" id="poketypes" src="images/poketypes.gif"
+                            alt="screenshot of poketypes app">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h2 class="project-title">Password Generator</h2>
+                    <img class="project-img" src="images/password-generator.gif"
+                        alt="screenshot of password generator app">
+                </div>
+                <div class="project-card">
+                    <h2 class="project-title">Unit Converter</h2>
+                    <img class="project-img" src="images/unit-converter.gif" alt="screenshot of unit converter app">
+                </div>
             </div>
         </div>
     </section>
 
     <section class="bottom-section">
-        <h1 class="section-title">My Skills</h1>
-        <div class="skill-card">
-            <h3 class="skill-title">HTML</h3>
-            <img class="icon" src="images/html5.svg" alt="html icon">
-        </div>
-        <div class="skill-card">
-            <h3 class="skill-title">CSS</h3>
-            <img class="icon" src="images/css3.svg" alt="css icon">
-        </div>
-        <div class="skill-card">
-            <h3 class="skill-title">JavaScript</h3>
-            <img class="icon" src="images/javascript.svg" alt="javascript icon">
+        <div class="container">
+            <h1 class="bottom-section-title">My Skills</h1>
+            <div class="skills-section">
+                <div class="skill-card">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img class="icon"
+                            src="images/html5.svg" alt="html icon"></a>
+                </div>
+                <div class="skill-card">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="icon"
+                            src="images/css3.svg" alt="css icon"></a>
+                </div>
+                <div class="skill-card">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="icon"
+                            src="images/javascript.svg" alt="javascript icon"></a>
+                </div>
+            </div>
         </div>
 
     </section>
-    
+
 </body>
+
 </html>
