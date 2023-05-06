@@ -16,38 +16,34 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1{
-    font-size: 51px;
+h1{ 
     font-weight: 700;
 }
 
 h2{
-    font-size: 24px;
     font-weight: 300;
 }
 
-p{
-    font-size: 20px;
-}   
-
 .avatar{
-    min-width: 75px;
-    max-height: 250px;  
+    width: 30%;
+    max-width: 250px;
     border-radius: 5%;
     box-shadow: 5px 5px 5px #8d99ae;
 }
 
 .text-container{
-    min-width: 400px;
+    width: 30%;
+    max-width: 350px;
     text-align: center;
 }
 
 .connect{
-    width: 300px;
+    width: 30%;
+    max-width: 300px;
 }
 
 .icon{
-    width: 50px;
+    width: 60%;
     background-color: #8d99ae;
     border-radius: 20%;
 }
@@ -88,6 +84,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 95%;
     max-width: 800px;   
 }
 
@@ -124,9 +121,15 @@ article{
     height: 500px;
 }
 
+.project-name{
+    max-width: 190px;
+    width: 100%;
+}
+
 .project-card{
-    max-width: 250px;
-    display: flex;
+    width: 33%; 
+    max-width: 200px;
+    display: block;
     flex-direction: column;
     text-align: center;
     margin: 10px;
@@ -141,6 +144,7 @@ article{
 }
 
 .project-img{
+    width: 85%;
     max-width: 250px;
     cursor: pointer;
     filter: grayscale(100);
@@ -170,4 +174,18 @@ article{
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+.bottom-icon{
+    width: 60%;
+    max-width: 150px;
+    background-color: #8d99ae;
+    border-radius: 20%;
+}
+
+.bottom-icon:hover{
+    outline: 2px outset #edf2f4;
+    opacity: 20;
+    cursor: pointer;
+
 }
