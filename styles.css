@@ -18,10 +18,12 @@ body{
 
 h1{ 
     font-weight: 700;
+    font-size: 3rem;
 }
 
 h2{
     font-weight: 300;
+    font-size: 1.5rem;
 }
 
 .avatar{
@@ -40,6 +42,7 @@ h2{
 .connect{
     width: 30%;
     max-width: 300px;
+    font-size: 1.5rem;;
 }
 
 .icon{
@@ -49,13 +52,13 @@ h2{
 }
 
 .icon:hover{
-    outline: 2px outset #edf2f4;
+    outline: .15em outset #edf2f4;
     opacity: 20;
     cursor: pointer;
 
 }
 .social-links{
-    padding: 10px;
+    padding: .5em;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -91,13 +94,14 @@ header{
 .section-title{
     margin: 10;
     text-align: center;
-    padding: 30px;  
+    padding: .5em;  
     border-top: 1px solid #2b2d42;
     border-bottom: 1px solid #2b2d42;    
 }
 
 article{
-    line-height: 24px;
+    line-height: 2rem;
+    font-size: 1.5rem;
 }
 
 #medium-link{
@@ -122,20 +126,17 @@ article{
 }
 
 .project-name{
-    max-width: 190px;
-    width: 100%;
+    font-size: 1rem;
 }
 
 .project-card{
     width: 33%; 
     max-width: 200px;
-    display: block;
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
-    gap: 10px;
-    border: 2px solid #2b2d42;  
+    padding: 1em;
 }
 
 .project-section{
@@ -159,7 +160,7 @@ article{
     justify-content: center;   
     background-color: #2b2d42;
     color: #edf2f4;
-    height: 200px;
+    height: 400px;
 }
 
 .bottom-section-title{
@@ -184,7 +185,7 @@ article{
 }
 
 .bottom-icon:hover{
-    outline: 2px outset #edf2f4;
+    outline: .15em outset #edf2f4;
     opacity: 20;
     cursor: pointer;
 
