@@ -190,3 +190,64 @@ article{
     cursor: pointer;
 
 }
+
+
+@media (max-width: 800px){
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 20vh;
+    }
+
+    .avatar{
+        display: none;
+    }
+
+    .text-container {
+        width: 98%;
+        margin: 1em;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .statement{
+        font-size: 1rem;
+    }
+
+    .connect{
+        width: 98%;
+    }
+
+    .top-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        height: 100vh;
+        padding: 0 .5em;
+    }
+
+    article p {
+        margin: 1.5rem 0;
+    }
+
+    .mid-section{
+        height: 100vh;
+    }
+    .project-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .project-card{
+        width: 50%;
+    }
+
+    .section-title, .bottom-section-title{
+        font-size: 2rem;
+    }
+}
