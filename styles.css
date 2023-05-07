@@ -107,12 +107,12 @@ article{
 #medium-link{
     text-decoration: none;
     cursor: pointer;
-    color: #ef233c;
+    color: darkred;
 }
 
 #medium-link:hover {
     cursor: pointer;
-    background-color: #ef233c;
+    background-color: darkred;
     color: #2b2d42;
     padding: 2px;
 }
